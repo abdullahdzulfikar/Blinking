@@ -7,8 +7,8 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(13, HIGH);
-  delay(100);
-  digitalWrite(13, LOW);
-  delay(100);
+  Serial.println("ON 3 detik");
+  delay(3000);
+  Serial.println("OFF 5 detik");
+  delay(5000);
 }
